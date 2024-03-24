@@ -10,14 +10,19 @@ pip install git+https://github.com/Halvani/YT_StreamGrabber.git
 ## Usage
 YT_StreamGrabber can be used in three ways:
 
-- UI for uncomplicated use without insight into technical details 
-- Use as a Python module, e.g. to extend existing applications 
-- Use as a Jupyter notebook for to direct interaction 
+- UI for easy use without insight into technical details 
+- Python module, e.g. to extend existing applications 
+- Jupyter notebook for to direct interaction 
 
-
-<center>
-<div>
-  <img src="https://github.com/Halvani/assets/images/UI.jpg" alt="YT_StreamGrabber UI" width=90% height=90% class="center">
-</div>
+I recommend the UI. For this, simply call it from the command line via: 
+```
+python yt_streamgrabber_app.py
+```
 <br>
+<center>
+    <div><img src="https://raw.githubusercontent.com/Halvani/YT_StreamGrabber/main/assets/images/UI.jpg" alt="YT_StreamGrabber UI" width=90% height=90% class="center"></div>
 </center>
+<br>
+
+
+
