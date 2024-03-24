@@ -79,7 +79,7 @@ class YTMainWindow:
         y = int((screen_height/2) - (window_height/2))
 
         self.window.geometry("{}x{}+{}+{}".format(window_width, window_height, x, y))
-        self.window.title(f"YT-Stream Downloader")
+        self.window.title(f"YT_StreamGrabber")
         self.window['background'] = self.bg_color
         #self.window.wm_attributes('-transparentcolor', window['bg']) <-- sets entire form transparent
         self.window.attributes('-topmost',True)
