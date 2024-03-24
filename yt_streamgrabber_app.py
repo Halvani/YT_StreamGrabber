@@ -2,7 +2,7 @@ import clipboard
 import subprocess
 from pathlib import Path
 from tkinter import (Tk, ttk, Button, Label, Entry, END, W, messagebox)
-from yt_downloader import (StreamType, download_yt_stream, download_yt_streams_from_playlist)
+from yt_streamgrabber import (StreamType, download_yt_stream, download_yt_streams_from_playlist)
 
 
 class YTMainWindow:
